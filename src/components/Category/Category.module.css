@@ -1,0 +1,22 @@
+.category {
+    background: #00a5ad;
+    grid-area: category;
+}
+
+
+
+.title {
+    margin: 15px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+.subTitle {
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
+

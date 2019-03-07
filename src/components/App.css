@@ -1,6 +1,26 @@
 .App {
-  text-align: center;
+
+  display: grid;
+  margin: 0 auto;
+  width: 100%;
+
+  grid-template-areas:
+  "h h h h"
+  "category category category category"
+  ". nav services .";
+
+  grid-template-rows: 96px 96px 10fr;
+  grid-template-columns: 1fr 2fr 6fr 1fr;
+  grid-gap: 0px;
+
+  background: grey;
 }
+
+
+
+
+
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
