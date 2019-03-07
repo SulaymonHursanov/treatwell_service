@@ -11,10 +11,10 @@ class App extends Component {
         return (
             <BrowserRouter>
                 <div className="App">
-                    <Header/>
-                    <Navbar/>
-                    <Services/>
-                    <Category/>
+                    <Header />
+                    <Navbar />
+                    <Services serviceData={this.props.state.serviceData} />
+                    <Category title={'Hollywood waxing in the UK'} count={2210}/>
                 </div>
             </BrowserRouter>
         );
